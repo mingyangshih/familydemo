@@ -11192,6 +11192,11 @@ body {
   font-weight: bold;
 }
 
+.noticeItem span {
+  color: #004B89;
+  font-weight: bold;
+}
+
 .noticeOneContent {
   display: none;
 }
