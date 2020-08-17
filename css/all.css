@@ -10920,6 +10920,10 @@ body {
   max-width: 100%;
 }
 
+.title {
+  color: #004B89;
+}
+
 .awardBlock {
   padding: 20px;
   -webkit-box-sizing: border-box;
@@ -10930,10 +10934,6 @@ body {
 .awardBlock .showPresentBox {
   border-radius: 19px;
   padding: 10px;
-}
-
-.awardBlock .title {
-  color: #004B89;
 }
 
 .awardBlock .form-control {
