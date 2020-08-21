@@ -11158,7 +11158,7 @@ body {
 }
 
 .noticeItemTitle .bgSetting {
-  width: 100%;
+  max-width: 100%;
 }
 
 .noticeItemTitle .noticeImg {
@@ -11196,6 +11196,7 @@ body {
 .noticeItem li {
   color: #004B89;
   font-weight: bold;
+  text-align: justify;
 }
 
 .noticeItem .secondPartTitle {
@@ -11208,68 +11209,26 @@ body {
   font-weight: bold;
 }
 
-.noticeOneContent {
-  display: none;
+@media (max-width: 768px) {
+  .noticeItem li .sprite {
+    margin-left: -14px;
+  }
 }
 
-#noticeOne:checked ~ .noticeOneContent {
-  display: block;
+.ftSmall {
+  font-size: 13px;
 }
 
-#noticeOne:checked ~ .noticeOneDiv {
-  border-bottom: 0;
+@media (max-width: 320px) {
+  .seSmall {
+    font-size: 13px;
+    text-align: center;
+  }
 }
 
-#noticeOne:checked ~ div > label[for="noticeOne"] .addSvg {
-  display: none;
-}
-
-#noticeOne:checked ~ div > label[for="noticeOne"] .minusSvg {
-  display: initial;
-}
-
-.noticeSecondContent {
-  display: none;
-}
-
-#noticeSecond:checked ~ .noticeSecondContent {
-  display: block;
-}
-
-#noticeSecond:checked ~ div > label[for="noticeSecond"] .addSvg {
-  display: none;
-}
-
-#noticeSecond:checked ~ div > label[for="noticeSecond"] .minusSvg {
-  display: initial;
-}
-
-.noticeThirdContent {
-  display: none;
-}
-
-#noticeThird:checked ~ .noticeThirdContent {
-  display: block;
-}
-
-#noticeThird:checked ~ div > label[for="noticeThird"] .addSvg {
-  display: none;
-}
-
-#noticeThird:checked ~ div > label[for="noticeThird"] .minusSvg {
-  display: initial;
-}
-
-.addSvg, .minusSvg {
-  width: 24px;
-  height: 24px;
-}
-
-.addSvg:hover, .minusSvg:hover {
-  opacity: .4;
-  cursor: pointer;
-}
-
-.minusSvg {
-  display: none;
+@media (max-width: 768px) {
+  .ftSmall {
+    font-size: 12px;
+    text-align: center;
+  }
 }
