@@ -11209,7 +11209,7 @@ body {
   font-weight: bold;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .noticeItem li .sprite {
     margin-left: -14px;
   }
@@ -11228,7 +11228,7 @@ body {
 
 @media (max-width: 768px) {
   .ftSmall {
-    font-size: 12px;
+    font-size: 13px;
     text-align: center;
   }
 }
